@@ -1,1 +1,7 @@
 theme: jekyll-theme-leap-day
+
+title: S.P.A.R.K
+description: An AI in Development (Kind of a Utility Software)
+
+show_downloads: true
+#google_analytics: [Your Google Analytics tracking ID]
