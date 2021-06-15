@@ -467,6 +467,12 @@ footer {
 .project-image {
 	float: left;
 }
+.project-image > img {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+}
+
 .project-info {
 	position: absolute;
 	top: 50%;
@@ -736,9 +742,4 @@ footer {
 		font-size: 0.9em;
 		padding: 5px 10px;
 	}
-}
-.project-image > img {
-	height: 300px;
-	width: 300px;
-	object-fit: cover;
 }
