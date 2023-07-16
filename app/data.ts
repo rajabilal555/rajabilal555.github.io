@@ -78,8 +78,8 @@ const developer: Developer = {
   phone: "+92 3334513312",
   email: "rajabilal555@gmail.com",
   location: "Karachi, Pakistan",
-  about: `A results driven Software Developer with 5+ years of experience building high quality web applications. Specialized in backend web services. Self-taught and continuously enhancing skills to stay up-to-date with industry trends. Adaptable and knowledgeable, leveraging valuable project insights to deliver efficient solutions.
-
+  about: `A Final year student driven by relentless curiosity. I have immersed myself in the world of Software Development for over 5 years. Self-taught and continuously learning to enhance my skills and staying up-to-date with industry trends. Adaptable and well-versed, I have tackled various projects, ranging from web development to mobile app development and beyond.
+  
 🔭 Currently I'm freelancing and in the final year of my bachelors.
 🌱 I'm currently looking for good career startup opportunities.
 ⚡ Fun fact: I've been passionate about tech since the age of 12`,
@@ -98,11 +98,10 @@ const developer: Developer = {
         BiLogoFlutter,
         BiLogoFirebase,
       ],
-      description: `- Developed and deployed web applications, mobile apps, and custom software, utilizing a variety of programming languages, frameworks, and technologies.
-- Collaborated closely with clients to understand their specific needs and translate them into practical software solutions.
-- Demonstrated proficiency in problem-solving and troubleshooting, ensuring efficient resolution of technical issues.
-- Acquired expertise in project management and communication, effectively coordinating with clients, stakeholders, and team members.
-- Continuously expanded technical knowledge and skills through self-learning and staying up-to-date with industry trends.`,
+      description: `- Developed and deployed diverse web applications, mobile apps, and custom software using various programming languages, frameworks, and technologies.
+- Collaborated closely with clients to understand and meet their specific software needs.
+- Proficient in problem-solving, troubleshooting, and efficiently resolving technical issues.
+- Skilled in project management and communication, ensuring effective coordination with clients, stakeholders, and team members.`,
     },
     {
       period: "Oct 2020 – Sep 2022",
@@ -119,8 +118,7 @@ const developer: Developer = {
       ],
       description: `- Successfully completed numerous projects, showcasing a track record of delivering quality software solutions.
 - Implemented and improved software development workflows, including the introduction of Git, automated code deployment, code checks (CI/CD), and an API documentation framework.
-- Developed and maintained scalable and robust backend systems, ensuring optimal performance and reliability.
-- Effectively worked remotely, demonstrating strong time management skills and consistently meeting project deadlines.`,
+- Developed and maintained scalable and robust backend systems, ensuring optimal performance and reliability.`,
     },
   ],
   projects: [
