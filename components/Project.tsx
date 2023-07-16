@@ -21,7 +21,7 @@ const Project = (props: Props) => {
           initial={{ x: 100 }}
           whileInView={{ x: 0 }}
           whileTap={{ scale: 0.99 }}
-          // viewport={{ once: true }}
+          viewport={{ once: true }}
           style={{ backgroundImage: `url(${props.image})` }}
           className="flex flex-col items-center bg-center bg-no-repeat bg-cover border border-gray-700 rounded-md shadow bg-blend-multiply md:flex-row">
           <div className="relative w-full p-8 transition duration-300 rounded-md group sm:p-12 bg-black/60 hover:bg-black/90 filter ">
