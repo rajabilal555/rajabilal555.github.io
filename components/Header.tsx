@@ -1,6 +1,8 @@
 "use client";
 import developer from "@/app/data";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { BsFilePdf } from "react-icons/bs";
 import { SiMailgun } from "react-icons/si";
 import { SocialIcon } from "react-social-icons";
 import PageLink from "./helpers/PageLink";
@@ -42,26 +44,36 @@ const Header = (props: Props) => {
           />
         ))}
       </motion.div>
-      <PageLink to="contact">
-        <motion.div
-          initial={{
-            x: 500,
-            opacity: 0,
-            scale: 0.5,
-          }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            scale: 1,
-          }}
-          transition={{ duration: 1.25 }}
-          className="flex flex-row items-center p-4 cursor-pointer">
-          <SiMailgun size={16} color="gray" />
-          <p className="hidden pl-2 pr-4 text-sm text-gray-400 uppercase md:inline-flex">
-            Get in touch
-          </p>
-        </motion.div>
-      </PageLink>
+      <motion.div
+        initial={{
+          x: 500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          x: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{ duration: 1.25 }}
+        className="flex flex-row items-center p-4">
+        <PageLink to="contact">
+          <div className="flex flex-row items-center mr-1 cursor-pointer">
+            <SiMailgun size={18} color="gray" />
+            <p className="hidden pl-2 pr-4 text-sm text-gray-400 uppercase md:inline-flex">
+              Get in touch
+            </p>
+          </div>
+        </PageLink>
+        <Link download={true} href={developer.resumeUrl}>
+          <div className="flex flex-row items-center cursor-pointer">
+            <BsFilePdf size={18} color="gray" />
+            <p className="hidden pl-2 pr-4 text-sm text-gray-400 uppercase md:inline-flex">
+              Get Resume
+            </p>
+          </div>
+        </Link>
+      </motion.div>
     </header>
   );
 };

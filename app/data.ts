@@ -18,20 +18,24 @@ import {
   BiLogoUnity,
   BiLogoVuejs,
 } from "react-icons/bi";
+import { IoLogoElectron } from "react-icons/io5";
 import { SiNodedotjs } from "react-icons/si";
 import {
   TbApi,
   TbBrandCSharp,
   TbBrandMongodb,
   TbBrandMysql,
+  TbBrandNextjs,
   TbBrandPython,
   TbBrandReact,
+  TbBrandTailwind,
   TbBrandTypescript,
 } from "react-icons/tb";
 interface Developer {
   picture: string;
   name: string;
   title: string;
+  resumeUrl: string;
   typings: string[];
   about: string;
   socials: string[];
@@ -69,6 +73,7 @@ const developer: Developer = {
   picture: "images/me.jpg",
   name: "Bilal Pervez",
   title: "Full stack Developer",
+  resumeUrl: "/Bilal Pervez Resume v5.pdf",
   typings: ["Hi! my name is Bilal Pervez"],
   socials: [
     "https://github.com/rajabilal555",
@@ -123,30 +128,41 @@ const developer: Developer = {
   ],
   projects: [
     {
+      name: "Developer Portfolio",
+      sourceUrl: "https://github.com/rajabilal555/rajabilal555.github.io",
+      icons: [TbBrandTypescript, TbBrandNextjs, TbBrandTailwind, TbBrandReact],
+      tags: ["Nextjs", "Typescript", "Tailwind"],
+      description: `This website itself which was made with Nextjs, Typescript and Tailwind over the weekend.`,
+    },
+    {
+      name: "Look Away Reminder",
+      image: "/images/lar.png",
+      sourceUrl: "https://github.com/rajabilal555/LAR",
+      icons: [TbBrandTypescript, TbBrandNextjs, IoLogoElectron, TbBrandReact],
+      tags: ["Nextjs", "Typescript", "Electronjs"],
+      description: `LAR (Look Away Reminder) is a cross-platform application built with Next.js and Electron.js.
+      Its primary goal is to prevent eye fatigue by sending periodic reminders to users, encouraging them to take breaks and divert their attention away from the screen.`,
+    },
+    {
       name: "Dota 2 Helper (Flutter App)",
       image: "https://rajabilal555.github.io/images/dota_helper.png",
       sourceUrl:
         "https://play.google.com/store/apps/details?id=com.rajabilal555.dota_helper",
-      icons: [
-        DiVisualstudio,
-        DiLaravel,
-        DiAndroid,
-        BiLogoFlutter,
-        BiLogoFirebase,
-      ],
+      icons: [DiAndroid, BiLogoFlutter, BiLogoFirebase],
       tags: ["Flutter", "Firebase"],
-      description: `- Demonstrated proficiency in Flutter development, API integration, data analysis, and algorithm development.
-      - Showcased ability to create practical solutions and cater to the needs of the gaming community.
-      - Created a Timer page for in-game event reminders.
-      - Implemented a Dota 2 news page utilizing data from the Steam API.
-      - Designed a hero draft helper using historical match data and an intelligent algorithm for hero picks during the drafting phase.
-      - Developed a heroes glossary page providing detailed information on each hero and recommended play style.`,
+      description: `A Flutter application published on Playstore.
+      
+      - Has a Timer page for in-game event reminders.
+      - A Dota 2 news page utilizing data from the Steam API.
+      - A hero draft helper using historical match data and an intelligent algorithm for hero picks during the drafting phase.
+      - A heroes glossary page providing detailed information on each hero and recommended play style.`,
     },
     {
       name: "Content Server",
       icons: [DiVisualstudio, DiCodeigniter, DiJsBadge],
       tags: ["PHP"],
-      description: `- A side project using PHP (Codeigniter) and MySQL database, showcasing proficiency in these technologies.
+      description: `A side project using PHP (Codeigniter) and MySQL database.
+      
       - Tested the project with a large volume of dummy Movies and Shows, ensuring efficient performance and functionality.
       - Implemented an Admin Panel to control both the front-end and the content/files of the project, providing easy management and customization capabilities.`,
     },
@@ -156,7 +172,7 @@ const developer: Developer = {
       sourceUrl:
         "https://play.google.com/store/apps/details?id=com.rajabilal555.CastleDefense",
       icons: [BiLogoUnity, TbBrandCSharp, DiAndroid],
-      tags: ["Unity", "C#"],
+      tags: ["Unity", "Game", "C#"],
       description: ``,
     },
   ],
@@ -193,7 +209,6 @@ const developer: Developer = {
       label: "API Development",
       icon: TbApi,
     },
-
     {
       label: "MySQL",
       icon: TbBrandMysql,

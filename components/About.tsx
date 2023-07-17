@@ -21,9 +21,10 @@ const About = (props: Props) => {
       /> */}
       <div className="max-w-screen-md px-0 space-y-10 md:px-10">
         <motion.h4
-          initial={{ x: -90 }}
-          whileInView={{ x: 0 }}
+          initial={{ opacity: 0, x: -90 }}
+          whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.3 }}
+          viewport={{ once: true }}
           className="text-3xl font-semibold">
           {/* Here is a{" "}
           <span className="underline decoration-blue-900">short</span>{" "}
@@ -36,9 +37,10 @@ const About = (props: Props) => {
           : A Glimpse into &apos;Who I Am&apos;
         </motion.h4>
         <motion.p
-          initial={{ x: 90 }}
-          whileInView={{ x: 0 }}
+          initial={{ opacity: 0, x: 90 }}
+          whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.3 }}
+          viewport={{ once: true }}
           className="text-base whitespace-pre-line">
           {developer.about}
         </motion.p>
