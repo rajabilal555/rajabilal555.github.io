@@ -1,7 +1,6 @@
 "use client";
 import developer from "@/app/data";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { BsFilePdf } from "react-icons/bs";
 import { SiMailgun } from "react-icons/si";
 import { SocialIcon } from "react-social-icons";
@@ -65,14 +64,14 @@ const Header = (props: Props) => {
             </p>
           </div>
         </PageLink>
-        <Link download={true} href={developer.resumeUrl}>
+        <a download={true} href={developer.resumeUrl} target="_blank">
           <div className="flex flex-row items-center cursor-pointer">
             <BsFilePdf size={18} color="gray" />
             <p className="hidden pl-2 pr-4 text-sm text-gray-400 uppercase md:inline-flex">
               Get Resume
             </p>
           </div>
-        </Link>
+        </a>
       </motion.div>
     </header>
   );

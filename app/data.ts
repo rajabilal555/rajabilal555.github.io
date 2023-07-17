@@ -73,7 +73,7 @@ const developer: Developer = {
   picture: "images/me.jpg",
   name: "Bilal Pervez",
   title: "Full stack Developer",
-  resumeUrl: "/Bilal Pervez Resume v5.pdf",
+  resumeUrl: "https://rajabilal555.github.io/Bilal%20Pervez%20Resume%20v5.pdf",
   typings: ["Hi! my name is Bilal Pervez"],
   socials: [
     "https://github.com/rajabilal555",
