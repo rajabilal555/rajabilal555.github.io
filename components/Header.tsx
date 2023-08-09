@@ -57,7 +57,7 @@ const Header = (props: Props) => {
         transition={{ duration: 1.25 }}
         className="flex flex-row items-center p-4">
         <PageLink to="contact">
-          <div className="flex flex-row items-center mr-1 cursor-pointer">
+          <div className="flex flex-row items-center mr-4 cursor-pointer md:mr-1">
             <SiMailgun size={18} color="gray" />
             <p className="hidden pl-2 pr-4 text-sm text-gray-400 uppercase md:inline-flex">
               Get in touch

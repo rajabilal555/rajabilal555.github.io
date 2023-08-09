@@ -154,8 +154,19 @@ const developer: Developer = {
       
       - Has a Timer page for in-game event reminders.
       - A Dota 2 news page utilizing data from the Steam API.
-      - A hero draft helper using historical match data and an intelligent algorithm for hero picks during the drafting phase.
+      - A hero draft helper using previous match data to suggest hero picks during the drafting phase.
       - A heroes glossary page providing detailed information on each hero and recommended play style.`,
+    },
+    {
+      name: "Next Expense (Flutter App)",
+      image: "/images/nextExpense_preview.jpg",
+      sourceUrl:
+        "https://play.google.com/store/apps/details?id=com.flowdevelopers.nextexpense",
+      icons: [DiAndroid, BiLogoFlutter, BiLogoFirebase],
+      tags: ["Flutter", "Firebase", "Freelance"],
+      description: `A flutter app made to track and manage expenses offline and on the go. User can scan and add their receipts and view insights on their expenses. The receipts can also be grouped into events for even more management options. The data can also be exported in pdf format for sharing with supervisors.
+- I managed the technical side of the project and developed 90% of the app myself.
+- While the designs were provided by the client, I converted the design images into functional flutter components.`,
     },
     {
       name: "Content Server",
