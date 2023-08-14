@@ -83,7 +83,7 @@ const developer: Developer = {
   phone: "+92 3334513312",
   email: "rajabilal555@gmail.com",
   location: "Karachi, Pakistan",
-  about: `A Final year student driven by relentless curiosity. I have immersed myself in the world of Software Development for over 5 years. Self-taught and continuously learning to enhance my skills and staying up-to-date with industry trends. Adaptable and well-versed, I have tackled various projects, ranging from web development to mobile app development and beyond.
+  about: `A Final year student driven by relentless curiosity. I have immersed myself in the world of Software Development for more than 4 years. My expertise spans across languages including PHP, Dart, and Nodejs as well as front-end technologies like Typescript, React and Vuejs. I have hands-on experience with frameworks such as Laravel, Flutter, Tailwind, and Nextjs and managing databases like MySQL and MongoDB. I have tackled various projects, ranging from web development to mobile app development. I am highly motivated, fast learner, self-taught and continuously learning to enhance my skills and staying up-to-date with industry trends.
   
 🔭 Currently I'm freelancing and in the final year of my bachelors.
 🌱 I'm currently looking for good career startup opportunities.
