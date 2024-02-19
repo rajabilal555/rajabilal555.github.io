@@ -73,7 +73,7 @@ const developer: Developer = {
   picture: "images/me.jpg",
   name: "Bilal Pervez",
   title: "Full stack Developer",
-  resumeUrl: "https://rajabilal555.github.io/Bilal%20Pervez%20Resume%20v6.pdf",
+  resumeUrl: "https://rajabilal555.github.io/Bilal%20Pervez%20Resume%20v2.2.pdf",
   typings: ["Hi! my name is Bilal Pervez"],
   socials: [
     "https://github.com/rajabilal555",
@@ -84,11 +84,21 @@ const developer: Developer = {
   email: "rajabilal555@gmail.com",
   location: "Karachi, Pakistan",
   about: `A Final year student driven by relentless curiosity. I have immersed myself in the world of Software Development for more than 4 years. My expertise spans across languages including PHP, Dart, and Nodejs as well as front-end technologies like Typescript, React and Vuejs. I have hands-on experience with frameworks such as Laravel, Flutter, Tailwind, and Nextjs and managing databases like MySQL and MongoDB. I have tackled various projects, ranging from web development to mobile app development. I am highly motivated, fast learner, self-taught and continuously learning to enhance my skills and staying up-to-date with industry trends.
-  
+
 🔭 Currently I'm freelancing and in the final year of my bachelors.
 🌱 I'm currently looking for good career startup opportunities.
 ⚡ Fun fact: I've been passionate about tech since the age of 12`,
   experiences: [
+    {
+      period: "Oct 2023 – Present",
+      company: "Carly",
+      position: "Flutter Developer",
+      icons: [DiVisualstudio, BiLogoFlutter, DiAndroid, DiGit, TbApi],
+      description: `- Boosted project development efficiency by 60%.
+- Collaborated with the backend design team, providing valuable input to improve the overall system architecture and efficiency.
+- Collaborated with the design team to implement user-friendly and practical designs.
+- Helped add a real-time web sockets feature by working closely with the team.`,
+    },
     {
       period: "Dec 2018 – Present",
       company: "Freelance",
@@ -151,7 +161,7 @@ const developer: Developer = {
       icons: [DiAndroid, BiLogoFlutter, BiLogoFirebase],
       tags: ["Flutter", "Firebase"],
       description: `A Flutter application published on Playstore.
-      
+
       - Has a Timer page for in-game event reminders.
       - A Dota 2 news page utilizing data from the Steam API.
       - A hero draft helper using previous match data to suggest hero picks during the drafting phase.
@@ -173,7 +183,7 @@ const developer: Developer = {
       icons: [DiVisualstudio, DiCodeigniter, DiJsBadge],
       tags: ["PHP"],
       description: `A side project using PHP (Codeigniter) and MySQL database.
-      
+
       - Tested the project with a large volume of dummy Movies and Shows, ensuring efficient performance and functionality.
       - Implemented an Admin Panel to control both the front-end and the content/files of the project, providing easy management and customization capabilities.`,
     },
